@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Phone Dashboard</title>
+</head>
+<body>
+<!--<div class="header">
+        <img src="logo.svg" height="150", width="150">
+        <h1>Phone Dashboard</h1>
+    </div>-->
+    <div class="dashboard">
+        <div class="metric" id="callsInQueue">
+            <h2>Calls in Queue</h2>
+            <p id="queueCount">0</p>
+        </div>
+        <div class="metric" id="callsOnCall">
+            <h2>Calls on Call</h2>
+            <p id="activeCallCount">0</p>
+        </div>
+        <div class="metric" id="missedCalls">
+            <h2>Missed Calls</h2>
+            <p id="missedCallCount">00</p>
+        </div>
+        <div class="metric" id="callsTaken">
+            <h2>Calls Taken</h2>
+            <p id="callsTakenCount">0</p>
+        </div>
+        <div class="metric" id="maxTimeWait">
+            <h2>Max Wait Time</h2>
+            <p id="maxTimeWaiting">0</p>
+        </div>
+        <div class="metric" id="abandonedCalls">
+            <h2>Abandoned Calls</h2>
+            <p id="abandonedCallCount">0</p>
+        </div>
+        <div class="metric" id="AverageWaitTime">
+            <h2>Average Wait Time</h2>
+            <p id="averageWaitCount">0</p>
+        </div>
+    </div>
+    <div class="loggedIn" id="usersLoggedIn">
+        <h2>Agents Logged in</h2>
+        <ul>
+            <li><span id="agentStatus_James"></span> James Ext: 2040</li>
+            <li><span id="agentStatus_Luis"></span> Luis  Ext: 2041</li>
+            <li><span id="agentStatus_Jerry"></span> Jerry Ext: 2051</li>
+            <li><span id="agentStatus_Chris"></span> Chris Ext: 2020</li>
+            <li><span id="agentStatus_Tim"></span> Tim   Ext: 2070</li>
+        </ul>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
